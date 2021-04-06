@@ -41,7 +41,7 @@ spiceprefix=X
 }
 C {devices/vsource.sym} 190 0 0 0 {name=V3 value=\{0\}}
 C {devices/code_shown.sym} 240 -240 0 0 {name=s1 only_toplevel=false value="
-.lib /home/users/dstanley/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
+.lib ~/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
 
 .noise v(out_node) V4 dec 10 100 100MEG 1
 

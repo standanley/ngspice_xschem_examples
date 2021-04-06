@@ -47,7 +47,7 @@ C {devices/vsource.sym} -480 70 0 0 {name=V3 value="pwl 0 0 100n 0 105n 1.2"}
 C {devices/vsource.sym} -200 70 0 0 {name=V4 value="\{0.8-indiff\}"}
 C {devices/vsource.sym} -300 70 0 0 {name=V5 value="\{0.8+indiff\}"}
 C {devices/code_shown.sym} -440 200 0 0 {name=s1 only_toplevel=false value="
-.lib /home/users/dstanley/share/sky130_fd_pr_ngspice/models/sky130.lib.spice ff
+.lib ~/share/sky130_fd_pr_ngspice/models/sky130.lib.spice ff
 
 .param indiff = 300m
 

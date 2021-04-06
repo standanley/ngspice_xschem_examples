@@ -45,7 +45,7 @@ C {devices/gnd.sym} -140 140 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} -480 70 0 0 {name=V3 value="pwl 0 0 100n 0 105n 1.2"}
 C {devices/vsource.sym} -200 70 0 0 {name=V4 value=0.795}
 C {devices/vsource.sym} -300 70 0 0 {name=V5 value=0.805}
-C {devices/code_shown.sym} -440 200 0 0 {name=s1 only_toplevel=false value=".lib /home/users/dstanley/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
+C {devices/code_shown.sym} -440 200 0 0 {name=s1 only_toplevel=false value=".lib ~/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
 .tran 0.5n 2u
 .save all"}
 C {devices/lab_wire.sym} -180 -50 0 0 {name=l2 sig_type=std_logic lab=clk}

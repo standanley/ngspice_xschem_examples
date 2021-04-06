@@ -45,7 +45,7 @@ spiceprefix=X
 }
 C {devices/vsource.sym} 190 0 0 0 {name=V3 value=.5625}
 C {devices/code_shown.sym} 310 -120 0 0 {name=s1 only_toplevel=false value="
-.lib /home/users/dstanley/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
+.lib ~/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
 
 .control
 save all
