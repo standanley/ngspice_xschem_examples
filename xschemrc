@@ -1,0 +1,19 @@
+# Configure xschem project directory to use sky130 symbols
+set XSCHEM_LIBRARY_PATH {}
+
+# this line is necessary for the regular xschem devices library to appear
+# Note: XSCHEM_SHAREDIR = ~/share/xschem
+append XSCHEM_LIBRARY_PATH :${XSCHEM_SHAREDIR}/xschem_library
+
+# this line is necessary for the skywater specific library to appear
+append XSCHEM_LIBRARY_PATH :~/share/xschem_sky130
+
+# print paths to the terminal whenever we launch xschem
+puts "xschem library path:"
+puts $XSCHEM_LIBRARY_PATH
+
+# The tutorial says we only need the patched _ngspice version for MODELS
+# but it seems to me like we only need it for CELLS ...
+# so I'm just using it for both
+set SKYWATER_MODELS ~/share/sky130_fd_pr_ngspice/latest
+set SKYWATER_STDCELLS ~/share/sky130_fd_pr_ngspice/latest 
