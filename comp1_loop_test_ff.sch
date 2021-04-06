@@ -29,7 +29,7 @@ N -300 -30 -150 -30 { lab=ina}
 N -300 -30 -300 40 { lab=ina}
 N -480 -50 -480 40 { lab=clk}
 N -480 -50 -150 -50 { lab=clk}
-C {/home/users/dstanley/EE272B/xschem_tests/comp1.sym} 0 -20 0 0 {name=x1}
+C {./comp1.sym} 0 -20 0 0 {name=x1}
 C {devices/vsource.sym} 400 20 0 0 {name=V1 value=0}
 C {devices/vsource.sym} 470 20 0 0 {name=V2 value=1.2}
 C {devices/capa.sym} 310 60 0 0 {name=C1

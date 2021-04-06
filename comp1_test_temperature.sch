@@ -31,7 +31,7 @@ N -580 -50 -580 40 { lab=clk}
 N -480 -50 -150 -50 { lab=clk}
 N -580 -50 -480 -50 { lab=clk}
 N -580 120 -480 120 { lab=GND}
-C {/home/users/dstanley/EE272B/xschem_tests/comp1.sym} 0 -20 0 0 {name=x1}
+C {./comp1.sym} 0 -20 0 0 {name=x1}
 C {devices/vsource.sym} 400 20 0 0 {name=V1 value=0}
 C {devices/vsource.sym} 470 20 0 0 {name=V2 value=1.2}
 C {devices/capa.sym} 310 60 0 0 {name=C1
@@ -48,7 +48,7 @@ C {devices/gnd.sym} -140 140 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} -580 70 0 0 {name=V3 value="pwl 0 0 100n 0 105n 1.2 1000n 1.2 1005n 0"}
 C {devices/vsource.sym} -200 70 0 0 {name=V4 value=0.795}
 C {devices/vsource.sym} -300 70 0 0 {name=V5 value=0.805}
-C {devices/code_shown.sym} -440 200 0 0 {name=s1 only_toplevel=false value=".lib /home/users/dstanley/share/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
+C {devices/code_shown.sym} -440 200 0 0 {name=s1 only_toplevel=false value=".lib ~/sky130_fd_pr_ngspice/models/sky130.lib.spice tt
 
 
 .tran 0.5n 10u

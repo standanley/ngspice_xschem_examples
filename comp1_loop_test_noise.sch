@@ -91,4 +91,4 @@ C {devices/lab_wire.sym} -180 -30 0 0 {name=l3 sig_type=std_logic lab=ina}
 C {devices/lab_wire.sym} -180 -10 0 0 {name=l4 sig_type=std_logic lab=inb}
 C {devices/lab_wire.sym} 190 -10 0 0 {name=l5 sig_type=std_logic lab=outa}
 C {devices/lab_wire.sym} 190 10 0 0 {name=l6 sig_type=std_logic lab=outb}
-C {/home/users/dstanley/EE272B/xschem_tests/comp1_noisy.sym} 0 -20 0 0 {name=x1}
+C {./comp1_noisy.sym} 0 -20 0 0 {name=x1}

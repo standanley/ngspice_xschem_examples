@@ -166,5 +166,5 @@ C {devices/iopin.sym} -290 10 0 0 { name=p6 lab=OUTA }
 C {devices/ipin.sym} -290 -10 0 0 { name=p7 lab=INB }
 C {devices/ipin.sym} -290 -30 0 0 { name=p8 lab=INA }
 C {devices/ipin.sym} -290 -50 0 0 { name=p9 lab=CLK }
-C {/home/users/dstanley/EE272B/xschem_tests/nmos_noisy.sym} 140 70 0 1 {name=x1}
-C {/home/users/dstanley/EE272B/xschem_tests/nmos_noisy.sym} 340 70 0 0 {name=x2}
+C {./nmos_noisy.sym} 140 70 0 1 {name=x1}
+C {./nmos_noisy.sym} 340 70 0 0 {name=x2}
